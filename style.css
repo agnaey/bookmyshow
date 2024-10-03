@@ -1,0 +1,68 @@
+#navbar{
+    background-color: #eeeded;
+}
+#logo{
+    padding-left: 45%;
+    
+}
+/* #slogo{
+
+} */
+
+
+#login{
+    position: absolute;
+    right: 15%;
+}
+
+#canva{
+    position: absolute;
+    right: 8%;
+
+}
+#kochi{
+    position: absolute;
+    right: 23%;
+
+}
+
+
+
+#search{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+}
+#slogo{
+    position: absolute;
+    top: 20px;
+    left: 409px;
+    border: none;
+}
+#droplogo{
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    border: none;
+}
+.text-black{
+    text-decoration: none;
+}
+#gift{
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0px 1px 0px 0 rgba(0, 0, 0, 0.19);
+}
+#noti:hover{
+    background-color: #eeeded;
+}
+#order{
+    color:rgba(0, 0, 0, 0.308);
+}
+
+#nav2{
+    background-color: rgb(245,245,245);
+    padding-top: 1%;
+}
+#navrow{
+    padding-left: 15%;
+}

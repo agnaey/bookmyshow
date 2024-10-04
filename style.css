@@ -66,3 +66,55 @@
 #navrow{
     padding-left: 15%;
 }
+.movie-card {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #f8f9fa;
+}
+.movie-details {
+    padding: 10px;
+}
+.movie-title {
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.movie-genre {
+    color: #6c757d;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+.movie-stats {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+.movie-stats span {
+    display: inline-block;
+    margin-right: 10px;
+}
+.movie-stats i {
+    margin-right: 5px;
+}
+#premi{
+    background-color: rgb(43,49,72);
+}
+#mov{
+    color: white;
+}
+#pre{
+    margin-left: 9%;
+}

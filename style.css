@@ -66,6 +66,12 @@
 #navrow{
     padding-left: 15%;
 }
+#rec{
+    margin-left: 14%;
+}
+#rev{
+    padding-right: 11115px;
+}
 .movie-card {
     border-radius: 10px;
     overflow: hidden;
@@ -140,7 +146,7 @@
 #main1{
     position: relative;
     background-size: cover;
-    height: 700px;
+    height: 500px;
     background-image: url(media/arm.jpg);
 }
 #main1::before{
@@ -148,13 +154,12 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(196, 192, 192, 0.297);
+    background-color: rgba(0, 0, 0, 0.526);
     z-index: 1;
 }
 #main2{
     position: relative;
     z-index: 2;
-    margin-top: 9%;
     left: 16%;
 
 }
@@ -163,3 +168,91 @@
     position: relative;
     opacity: 1;
 }
+
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+#star {
+    color: red;
+    font-size: 27px;
+  }
+  
+  .rating .score {
+    font-size: 1.5rem;
+    margin-left: 5px;
+  }
+  
+  .rating .votes {
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  
+  .rate-btn {
+    margin-left: 15px;
+    font-size: 0.9rem;
+  }
+  .moviedetail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .moviedetail span {
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+#main3{
+    position: relative;
+    z-index: 1;
+    top: -15%;
+    left: 6%;
+    opacity: 1;
+    color: white;
+}
+#rating{
+    background-color:rgb(51,51,51);
+    padding: 10px;
+    border-radius: 10px;
+}
+#ratebtn{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+#lang{
+    background-color: white;
+    color: #000;
+    border-radius: 4px;
+}
+#book{
+    background-color: rgb(248,68,100);
+    color: white;
+    border-radius: 9px;
+    text-decoration: none;
+    padding: 15px 49px;
+    font-size: 17px;
+    position: relative;
+    top: 45px;
+    
+}
+#no{
+    color: rgb(248,68,100);
+}
+#no{
+    border: #6c757d79 1px solid;
+    padding: 15px 25px;
+    font-size: 16px;
+}
+#no1{
+    background-color: #a4a8ab74;
+    padding: 5px;
+}
+
+
+  
+  
+ 

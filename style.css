@@ -341,7 +341,7 @@
 
  #heading{
      color: rgb(176, 174, 174);
-     font-size: 18px;
+     font-size: 14px;
  } 
 .para{
     color: rgb(128, 124, 124);
@@ -353,6 +353,25 @@
 
 #text1:hover{
     color: white;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.left-line,
+.right-line {
+    border: none;
+    height: 1px;
+    background-color: #888;
+    width: 100%;
+}
+
+.logo {
+    margin: 0 15px;
 }
 
 
